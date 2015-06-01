@@ -1,0 +1,163 @@
+/* 
+TicTacToe Stylesheet v1.0
+Last Updated: 2015-03-28
+Author: William R.A.D. Funk - http://WilliamRobertFunk.com 
+*/
+body
+{
+    background-color: #99FF99;
+}
+h1
+{
+    text-align: center;
+    font-family: Arial;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+h2, h3, h4
+{
+    margin: 10px auto;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 366px;
+    height: 50px;
+    font-family: Arial;
+    font-size: 25px;
+    border: none;
+}
+h2
+{
+    text-align: left;
+    padding-top: 20px;
+}
+h3
+{
+    font-size: 23px;
+}
+h4
+{
+    font-size: 21px;
+}
+ul
+{
+    margin: 50px auto;
+    list-style-type: none;
+    width: 100%;
+    height: 366px;
+    font-family: Arial;
+}
+ul li
+{
+    float: left;
+    width: 32.7%;
+    height: 120px;
+}
+#wrapper
+{
+    width: 366px;
+    margin: 0 auto;
+}
+.reset_btn
+{
+    margin: 0px auto;
+    padding-left: 133px;
+    width: 233px;
+}
+#square_one, #square_two, #square_three, 
+#square_four, #square_five, #square_six, 
+#square_seven, #square_eight, #square_nine
+{
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #000000;
+}
+#score_board
+{
+    margin: 40px auto;
+    width: 100%;
+    height: 200px;
+    border: 2px solid #000000;
+}
+#p1_score, #p2_score
+{
+    float: left;
+    margin: 0px auto;
+    padding-top: 15px;
+    text-align: center;
+    width: 182px;
+    height: 35px;
+    font-family: Arial;
+    font-size: 20px;
+    border: none;
+}
+@media only screen and (max-width: 640px) {
+h1
+{
+    font-size: 25px;
+}
+h2, h3, h4
+{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+}
+h2
+{
+    padding-top: 10px;
+}
+h3
+{
+    font-size: 19px;
+}
+h4
+{
+    font-size: 17px;
+}
+ul
+{
+    margin: 10px auto;
+    width: 100%;
+    height: 246px;
+    background-color: #000000;
+}
+ul li
+{
+    width: 32.7%;
+    height: 80px;
+    opacity: 1.0 !important;
+
+}
+#wrapper
+{
+    width: 100%;
+}
+.reset_btn
+{
+    margin-top: 20px;
+    padding: 0px;
+    width: 100px;
+}
+#square_one, #square_two, #square_three, 
+#square_four, #square_five, #square_six, 
+#square_seven, #square_eight, #square_nine
+{
+    background-size: 100% 100%;
+}
+#score_board
+{
+    margin: 20px auto;
+    width: 100%;
+    height: 130px;
+    border-left: none;
+    border-right: none;
+}
+#p1_score, #p2_score
+{
+    padding-top: 10px;
+    text-align: center;
+    width: 50%;
+    height: 35px;
+    font-size: 17px;
+}
+
+}
